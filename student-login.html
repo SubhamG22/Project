@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Login</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6; /* Light grey */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('university.avif');
+  background-size: cover;
+}
+
+.login-container {
+  width: 300px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.university-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-link a {
+  color: #4CAF50; /* Green */
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form">
+      <img src="university_logo.png" alt="University Logo" class="university-logo">
+      <h2>Welcome Back, Student!</h2>
+      <p>Login to access your account</p>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p class="signup-link">Don't have an account? <a href="#">Sign up here</a></p>
+    </form>
+  </div>
+</body>
+</html>
